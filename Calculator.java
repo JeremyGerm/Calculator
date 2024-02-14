@@ -38,5 +38,6 @@ public class Calculator {
             default:
             break;
         }
+        scan.close();
     }
 }
