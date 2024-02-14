@@ -29,7 +29,11 @@ public class Calculator {
             System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
             break;
             case "divide":
-            System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
+            if(num2 == 0) {
+                System.out.println("Divide by zero error.");
+            } else {
+                System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
+            }
             break;
             default:
             break;
