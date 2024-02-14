@@ -12,7 +12,7 @@ public class Calculator {
 
         int num2 = scan.nextInt();
 
-        System.out.println("Would you like to add or subtract?");
+        System.out.println("Would you like to add, subtract, multiply, or divide?");
 
         Scanner keyboardInput = new Scanner(System.in);
 
@@ -24,6 +24,14 @@ public class Calculator {
             break;
             case "subtract":
             System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
+            break;
+            case "multiply":
+            System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+            break;
+            case "divide":
+            System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
+            break;
+            default:
             break;
         }
     }
