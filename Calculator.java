@@ -4,13 +4,13 @@ public class Calculator {
     
     public static void main(String[] args) {
 
-        System.out.println("Please input two integers.");
+        System.out.println("Please input two numbers.");
 
         Scanner scan = new Scanner(System.in);
 
-        int num1 = scan.nextInt();
+        double num1 = scan.nextDouble();
 
-        int num2 = scan.nextInt();
+        double num2 = scan.nextDouble();
 
         System.out.println("Would you like to add, subtract, multiply, or divide?");
 
